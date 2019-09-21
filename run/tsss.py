@@ -39,3 +39,12 @@ for i in range(10):
     rt_list.append(list(ranks[0:10, i]))
 
 print(rt_list)
+
+a = [(1, 2), (3, 4), (5, 6), (7, 8)]
+
+file = open('a.txt', 'a')
+for x, y in a:
+    print(x, y)
+    file.write(str(x) + ' ' + str(y) + '\n')
+
+file.close()

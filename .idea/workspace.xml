@@ -2,18 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb19073a-2c5a-4d69-b779-87c3c20d07aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netvlad_tf/image_descriptor.py" beforeDir="false" afterPath="$PROJECT_DIR$/netvlad_tf/image_descriptor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netvlad_tf/nets.py" beforeDir="false" afterPath="$PROJECT_DIR$/netvlad_tf/nets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/run/database.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/gen_retrieval_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/run/gen_retrieval_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/tsss.py" beforeDir="false" afterPath="$PROJECT_DIR$/run/tsss.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run/gen_retrieval_list.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="678">
+              <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Caches/PyCharm2019.1/python_stubs/-1199943126/builtins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-21">
+              <caret line="352" column="4" selection-start-line="352" selection-start-column="4" selection-end-line="352" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/run/tsss.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="640">
+              <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run/database.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-42">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,6 +62,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/run/gen_retrieval_list.py" />
+        <option value="$PROJECT_DIR$/run/tsss.py" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
@@ -35,7 +80,47 @@
       </list>
     </option>
   </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="40" />
+    <option name="y" value="23" />
+    <option name="width" value="1400" />
+    <option name="height" value="877" />
+  </component>
   <component name="ProjectId" id="1R9OJQjkakIHuBSzEFt3PMkEdYm" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="netvlad_tf_open" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netvlad_tf_open" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netvlad_tf_open" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netvlad_tf_open" type="462c0819:PsiDirectoryNode" />
+              <item name="netvlad_tf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netvlad_tf_open" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netvlad_tf_open" type="462c0819:PsiDirectoryNode" />
+              <item name="run" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netvlad_tf_open" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netvlad_tf_open" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -61,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.gen_retrieval_list">
+  <component name="RunManager" selected="Python.tsss">
     <configuration name="database" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="netvlad_tf_open" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,9 +215,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tsss" />
         <item itemvalue="Python.gen_retrieval_list" />
         <item itemvalue="Python.database" />
-        <item itemvalue="Python.tsss" />
       </list>
     </recent_temporary>
   </component>
@@ -148,8 +233,41 @@
       <updated>1568910214509</updated>
       <workItem from="1568910220551" duration="5582000" />
       <workItem from="1569075773867" duration="665000" />
+      <workItem from="1569079281289" duration="8000" />
+      <workItem from="1569079315998" duration="443000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="451000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="40" y="23" width="1400" height="877" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32939634" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -159,7 +277,28 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
@@ -168,6 +307,36 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/netvlad_tf_open$database.coverage" NAME="database Coverage Results" MODIFIED="1569076224797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
     <SUITE FILE_PATH="coverage/netvlad_tf_open$gen_retrieval_list.coverage" NAME="gen_retrieval_list Coverage Results" MODIFIED="1569076644021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
-    <SUITE FILE_PATH="coverage/netvlad_tf_open$tsss.coverage" NAME="tsss Coverage Results" MODIFIED="1569070414805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
+    <SUITE FILE_PATH="coverage/netvlad_tf_open$tsss.coverage" NAME="tsss Coverage Results" MODIFIED="1569079976111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2019.1/python_stubs/-1199943126/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret line="352" column="4" selection-start-line="352" selection-start-column="4" selection-end-line="352" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run/database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run/gen_retrieval_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run/tsss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
