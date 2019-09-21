@@ -31,14 +31,14 @@ class DataBase(object):
 class AAcchenDB(DataBase):
 
     def __init__(self, root, slice=None, img_ext='.jpg'):
-        self.images_root = osp.join(self.root, 'images', 'images_upright')
+        self.images_root = osp.join(root, 'images', 'images_upright')
         super(AAcchenDB, self).__init__(root, slice, img_ext)
 
-        print('slice {} in aachen has {} db images and {} query images.'.format(
+        print('aachen slice {} in aachen has {} db images and {} query images.'.format(
             self.slice, len(self.db_imgs), len(self.query_imgs)
         ))
 
-    def get_db_imgs(self):
+    def _get_db_imgs(self):
         db_root = osp.join(self.images_root, 'db')
         img_paths = []
         for root, _, files in os.walk(db_root):
@@ -50,10 +50,10 @@ class AAcchenDB(DataBase):
                         img_paths.append(imgpath)
                     else:
                         print('cannot find the image:', imgpath)
-        print('Found {} images in the database root {}'.format(len(img_paths), db_root))
+        # print('Found {} images in the database root {}'.format(len(img_paths), db_root))
         return img_paths
 
-    def get_query_imgs(self):
+    def _get_query_imgs(self):
         query_root = osp.join(self.root, 'queries')
         if self.slice == 'day_time':
             query_file = osp.join(query_root, 'day_time_queries_with_intrinsics.txt')
@@ -69,5 +69,19 @@ class AAcchenDB(DataBase):
             line = line.strip()  # 去掉每行头尾空白
             if not len(line) or line.startswith('#'):  # 判断是否是空行或注释行
                 continue  # 是的话，跳过不处理
-            query_list.append(line.split(' ')[0])  # 保存
+            tmp_path = osp.join(self.images_root, line.split(' ')[0])
+            query_list.append(tmp_path)  # 保存
         return query_list
+
+    def get_image_name(self, path):
+        return path[len(self.images_root)+1:]
+
+
+if __name__ == '__main__':
+    aachen_db = AAcchenDB(root='/data/vldata/aachen', slice='day_time')
+
+    print(aachen_db.db_imgs)
+    print(aachen_db.query_imgs)
+
+    print(aachen_db.get_image_name(aachen_db.db_imgs[0]))
+    print(aachen_db.get_image_name(aachen_db.query_imgs[0]))
